@@ -17,6 +17,18 @@ The core idea is simple:
 - `SKILLS_INVENTORY.md`  
   A local inventory of installed Skills, their source locations, short descriptions, and whether they are suitable to share directly.
 
+- `SKILL_CAPABILITY_GUIDE.md`  
+  A plain-language explanation of what the Skill families do and when to use them.
+
+- `SKILL_INSTALL_SOURCES.md`  
+  A source map explaining which Skills can be installed from this repo, which should come from ECC upstream, and which require plugin/system installation.
+
+- `skills-manifest.json`  
+  A machine-readable source manifest.
+
+- `install.ps1` / `install.sh`  
+  One-command installers for the original `clarify-before-execute` Skill. Optional ECC installation is offered through upstream only.
+
 ## Workflow Summary
 
 1. Ask what work needs to be done.
@@ -35,7 +47,32 @@ Copy the `skills/clarify-before-execute` folder into your agent's Skill director
 
 For Codex/ECC-style setups, keep this Skill loaded as a daily workflow guardrail. It is especially useful for ambiguous business, content, research, design, automation, and code tasks.
 
+## One-Command Install
+
+Windows PowerShell:
+
+```powershell
+.\install.ps1
+```
+
+macOS/Linux:
+
+```bash
+bash install.sh
+```
+
+Optional ECC upstream prompt:
+
+```powershell
+.\install.ps1 -WithECC
+```
+
+```bash
+bash install.sh --with-ecc
+```
+
+The installer does not copy third-party plugin cache files or unknown-origin Skills.
+
 ## Sharing Policy
 
 This package intentionally does not vendor third-party Skill bodies. The inventory lists third-party Skills by name, source, and purpose only. Before redistributing any third-party Skill content, check its original license and source repository.
-

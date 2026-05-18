@@ -1,0 +1,70 @@
+{
+  "name": "byte-brane-agent-workflow-skill-sources",
+  "version": "0.1.0",
+  "description": "Install sources and capability map for the Byte-Brane clarify-before-execute workflow and related Skill families.",
+  "default_install_scope": "core",
+  "scopes": {
+    "core": {
+      "description": "Install only the original clarify-before-execute Skill from this repository.",
+      "items": [
+        {
+          "name": "clarify-before-execute",
+          "type": "skill",
+          "source": "https://github.com/L3NNYIN/Byte-Brane",
+          "path": "agent-workflows/clarify-before-execute/skills/clarify-before-execute",
+          "install_method": "copy_to_codex_skills",
+          "license_status": "shared_by_this_repository"
+        }
+      ]
+    },
+    "ecc": {
+      "description": "Install ECC/Everything Claude Code Skills from upstream. This repository does not vendor ECC content.",
+      "items": [
+        {
+          "name": "everything-claude-code",
+          "type": "upstream_skill_pack",
+          "source": "https://github.com/affaan-m/everything-claude-code",
+          "package": "ecc-universal",
+          "suggested_command": "npx -y ecc-universal",
+          "license_status": "MIT observed in upstream checkout; verify upstream before redistribution"
+        }
+      ]
+    },
+    "codex-plugins": {
+      "description": "Official Codex/OpenAI plugin/runtime Skills. Install through Codex plugin or runtime tooling, not by copying cached files.",
+      "items": [
+        {
+          "name": "github-plugin-skills",
+          "type": "codex_plugin",
+          "source": "OpenAI curated GitHub plugin",
+          "install_method": "install/enable GitHub plugin in Codex"
+        },
+        {
+          "name": "netlify-plugin-skills",
+          "type": "codex_plugin",
+          "source": "OpenAI curated Netlify plugin",
+          "install_method": "install/enable Netlify plugin in Codex"
+        },
+        {
+          "name": "documents-spreadsheets-presentations",
+          "type": "codex_runtime_skills",
+          "source": "OpenAI primary runtime",
+          "install_method": "provided by compatible Codex desktop/runtime environment"
+        }
+      ]
+    },
+    "inventory-only": {
+      "description": "Skills listed in SKILLS_INVENTORY.md whose original source/license must be checked before copying or redistribution.",
+      "items": [
+        {
+          "name": "agency-* / dbs-* / user-community-skills",
+          "type": "inventory_only",
+          "source": "local user Skill directories",
+          "install_method": "manual: locate upstream source and verify license",
+          "license_status": "unknown or mixed"
+        }
+      ]
+    }
+  }
+}
+
