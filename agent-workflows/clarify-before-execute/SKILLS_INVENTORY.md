@@ -1,0 +1,1591 @@
+# Skills Inventory
+
+Generated on: 2026-05-18
+
+This inventory lists installed Skills visible on the local machine. It intentionally does not copy third-party Skill bodies. Share Skill content only after checking the original source and license.
+
+## Sharing Legend
+
+- **Share directly**: Created in this package and intended for redistribution.
+- **List only**: Mention the Skill and how to install it; do not vendor the content without license review.
+- **List only unless license permits**: Likely user/community/ECC content; verify the original license before copying full files.
+
+## Summary
+
+| Source | Count |
+|---|---:|
+| Agents User Skills | 52 |
+| Codex User Skills | 236 |
+| Local Shareable Skill | 1 |
+| Browser Plugin Skills | 1 |
+| GitHub Plugin Skills | 4 |
+| Netlify Plugin Skills | 12 |
+| Primary Runtime Plugin Skills | 3 |
+| **Total** | **309** |
+
+## Agents User Skills
+
+- `agent-introspection-debugging`
+  - Purpose: Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/agent-introspection-debugging/SKILL.md`
+- `agent-sort`
+  - Purpose: Build an evidence-backed ECC install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use when ECC should be trimmed to what a project actually needs instea...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/agent-sort/SKILL.md`
+- `api-design`
+  - Purpose: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/api-design/SKILL.md`
+- `article-writing`
+  - Purpose: Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/article-writing/SKILL.md`
+- `backend-patterns`
+  - Purpose: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/backend-patterns/SKILL.md`
+- `brand-voice`
+  - Purpose: Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/brand-voice/SKILL.md`
+- `bun-runtime`
+  - Purpose: Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/bun-runtime/SKILL.md`
+- `coding-standards`
+  - Purpose: Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/coding-standards/SKILL.md`
+- `content-engine`
+  - Purpose: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/content-engine/SKILL.md`
+- `crosspost`
+  - Purpose: Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/crosspost/SKILL.md`
+- `dbs`
+  - Purpose: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。 触发方式：/dbs、/商业、「帮我看看」 Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill. Trigger: /dbs, "help me with my business
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs/SKILL.md`
+- `dbs-action`
+  - Purpose: dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。 触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」 Execution block diagnosis using Adlerian psychology framework. Trigger: /dbs-action, "I know what to do but can't do it", "why do I procrastinate
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-action/SKILL.md`
+- `dbs-agent-migration`
+  - Purpose: Agent 工作台迁移。把任意项目整理成 Claude Code / Codex 双端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。 触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex」 Agent workspace migration. Turn an...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-agent-migration/SKILL.md`
+- `dbs-ai-check`
+  - Purpose: dontbesilent AI 写作特征识别。扫描文案中的 AI 生成痕迹，输出检测报告。默认只诊断不改。 触发方式：/dbs-ai-check、/AI检测、「帮我看看有没有 AI 味」「检测一下 AI 特征」 AI writing fingerprint detection. Scans copy for AI-generated patterns and outputs a diagnostic report. Diagnosis only by default. Trigger: /dbs-ai-che...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-ai-check/SKILL.md`
+- `dbs-benchmark`
+  - Purpose: dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。 触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」 Benchmark analysis using dontbesilent's five-filter method. Trigger: /dbs-benchmark, "find me a benchmark", "who should I copy
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-benchmark/SKILL.md`
+- `dbs-chatroom`
+  - Purpose: 定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-chatroom/SKILL.md`
+- `dbs-chatroom-austrian`
+  - Purpose: 哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。 触发方式：/dbs-chatroom-austrian、/chatroom-austrian、/奥派、「奥派聊天室」 Austrian economics chatroom. Hayek × Mises × Claude debate. Trigger: /dbs-chatroom-austrian, /chatroom-austrian, /奥派, "Austrian chat
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-chatroom-austrian/SKILL.md`
+- `dbs-content`
+  - Purpose: dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。 触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」 Content creation diagnosis. After topic passes, diagnose how to turn it into good content. Trigger: /dbs-content, "how should I create this content", "review my copy
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-content/SKILL.md`
+- `dbs-deconstruct`
+  - Purpose: dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。 触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」 Concept deconstruction using Wittgenstein + Austrian economics framework. Trigger: /dbs-deconstruct, "deconstruct this concept", "what does this really mean
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-deconstruct/SKILL.md`
+- `dbs-diagnosis`
+  - Purpose: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。 触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」 Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-diagnosis/SKILL.md`
+- `dbs-goal`
+  - Purpose: dontbesilent 目标清晰化。用维特根斯坦的语言哲学把模糊的目标审计成可检查的交付物。 触发方式：/dbs-goal、/目标、「帮我搞清楚目标」「我想做个人 IP」「我的目标是成为...」「我想变得更...」 Goal clarification using Wittgenstein's philosophy of language. Audits fuzzy goals into checkable deliverables. Trigger: /dbs-goal, "help me clarify...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-goal/SKILL.md`
+- `dbs-good-question`
+  - Purpose: dontbesilent 好问题生成器。把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断它能被自动化解决到什么程度。 触发方式：/dbs-good-question、/好问题、/问题说明书、/Agent可解性、「这个问题能不能自动化解决」「帮我把问题说清楚」 Turn fuzzy problems into agent-solvable problem briefs and evaluate automation readiness. Trigger: /dbs-good-questi...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-good-question/SKILL.md`
+- `dbs-hook`
+  - Purpose: dontbesilent 短视频开头优化。诊断开头问题 + 生成优化方案。 触发方式：/dbs-hook、/hook、「帮我优化开头」「开头怎么写」 Short video opening optimization with diagnosis and solutions. Trigger: /dbs-hook, "optimize my opening", "how to write opening
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-hook/SKILL.md`
+- `dbs-learning`
+  - Purpose: dontbesilent 交互式学习。把一个课题拆成连续学习文章，根据用户在上一篇中的反馈调整下一篇的深度、角度和节奏。 触发方式：/dbs-learning、/dbs-learn、/交互式学习、「带我学一个课题」「继续下一篇」「根据我的反馈写下一篇」 Interactive learning workflow. Builds an adaptive sequence of learning articles based on user feedback. Trigger: /dbs-learning, /d...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-learning/SKILL.md`
+- `dbs-report`
+  - Purpose: 把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。 触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」 Generate a deliverable diagnosis report by merging all dbs-save snapshots. Trigger: /dbs-report, "package this up", "make me a report
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-report/SKILL.md`
+- `dbs-restore`
+  - Purpose: 把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。 触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」 Restore the most recent diagnosis snapshot saved by dbs-save. Trigger: /dbs-restore, "continue from last time", "where did we leave off
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-restore/SKILL.md`
+- `dbs-save`
+  - Purpose: 把当前诊断的关键状态存到本地，下次回来可以接着用。 触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」 Save the current diagnosis state to disk for cross-session recall. Trigger: /dbs-save, "save this diagnosis", "remember this
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-save/SKILL.md`
+- `dbs-slowisfast`
+  - Purpose: dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。 触发方式：/dbs-slowisfast、/慢就是快、「有没有更慢的方法」「我是不是太快了」 Slow-is-fast diagnosis. Help entrepreneurs find seemingly slower methods that build assets through friction. Trigger: /dbs-slowisfast, "is there a slower way", "am...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-slowisfast/SKILL.md`
+- `dbs-xhs-title`
+  - Purpose: 小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。 触发方式：/dbs-xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」 Xiaohongshu title formula tool. Pick the right formula from 75 proven templates. Trigger: /dbs-xhs-title, "xiaohongshu title", "RED title formula
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dbs-xhs-title/SKILL.md`
+- `deep-research`
+  - Purpose: Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/deep-research/SKILL.md`
+- `dmux-workflows`
+  - Purpose: Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent developm...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/dmux-workflows/SKILL.md`
+- `documentation-lookup`
+  - Purpose: Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/documentation-lookup/SKILL.md`
+- `e2e-testing`
+  - Purpose: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/e2e-testing/SKILL.md`
+- `eval-harness`
+  - Purpose: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/eval-harness/SKILL.md`
+- `everything-claude-code`
+  - Purpose: Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/everything-claude-code/SKILL.md`
+- `exa-search`
+  - Purpose: Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/exa-search/SKILL.md`
+- `fal-ai-media`
+  - Purpose: Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/fal-ai-media/SKILL.md`
+- `frontend-patterns`
+  - Purpose: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/frontend-patterns/SKILL.md`
+- `frontend-slides`
+  - Purpose: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic th...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/frontend-slides/SKILL.md`
+- `investor-materials`
+  - Purpose: Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must st...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/investor-materials/SKILL.md`
+- `investor-outreach`
+  - Purpose: Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/investor-outreach/SKILL.md`
+- `market-research`
+  - Purpose: Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or rese...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/market-research/SKILL.md`
+- `mcp-server-patterns`
+  - Purpose: Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/mcp-server-patterns/SKILL.md`
+- `mle-workflow`
+  - Purpose: Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/mle-workflow/SKILL.md`
+- `nextjs-turbopack`
+  - Purpose: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/nextjs-turbopack/SKILL.md`
+- `product-capability`
+  - Purpose: Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before multi-service work starts. Use when the user needs an ECC-native PRD-to...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/product-capability/SKILL.md`
+- `security-review`
+  - Purpose: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/security-review/SKILL.md`
+- `strategic-compact`
+  - Purpose: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/strategic-compact/SKILL.md`
+- `tdd-workflow`
+  - Purpose: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/tdd-workflow/SKILL.md`
+- `verification-loop`
+  - Purpose: A comprehensive verification system for Claude Code sessions.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/verification-loop/SKILL.md`
+- `video-editing`
+  - Purpose: AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video,...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/video-editing/SKILL.md`
+- `x-api`
+  - Purpose: X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.agents/skills/x-api/SKILL.md`
+
+## Codex User Skills
+
+- `agency-accessibility-auditor`
+  - Purpose: Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-accessibility-auditor/SKILL.md`
+- `agency-account-strategist`
+  - Purpose: Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threade...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-account-strategist/SKILL.md`
+- `agency-accounts-payable-agent`
+  - Purpose: Autonomous payment processing specialist that executes vendor payments, contractor invoices, and recurring bills across any payment rail — crypto, fiat, stablecoins. Integrates with AI agent workflows via tool calls.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-accounts-payable-agent/SKILL.md`
+- `agency-ad-creative-strategist`
+  - Purpose: Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ad-creative-strategist/SKILL.md`
+- `agency-agentic-identity-trust-architect`
+  - Purpose: Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-agentic-identity-trust-architect/SKILL.md`
+- `agency-agents-orchestrator`
+  - Purpose: Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-agents-orchestrator/SKILL.md`
+- `agency-ai-citation-strategist`
+  - Purpose: Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ai-citation-strategist/SKILL.md`
+- `agency-ai-data-remediation-engineer`
+  - Purpose: Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ai-data-remediation-engineer/SKILL.md`
+- `agency-ai-engineer`
+  - Purpose: Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ai-engineer/SKILL.md`
+- `agency-analytics-reporter`
+  - Purpose: Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-analytics-reporter/SKILL.md`
+- `agency-anthropologist`
+  - Purpose: Expert in cultural systems, rituals, kinship, belief systems, and ethnographic method — builds culturally coherent societies that feel lived-in rather than invented
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-anthropologist/SKILL.md`
+- `agency-api-tester`
+  - Purpose: Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-api-tester/SKILL.md`
+- `agency-app-store-optimizer`
+  - Purpose: Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-app-store-optimizer/SKILL.md`
+- `agency-automation-governance-architect`
+  - Purpose: Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-automation-governance-architect/SKILL.md`
+- `agency-autonomous-optimization-architect`
+  - Purpose: Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-autonomous-optimization-architect/SKILL.md`
+- `agency-backend-architect`
+  - Purpose: Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-backend-architect/SKILL.md`
+- `agency-backend-architect-with-memory`
+  - Purpose: Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-backend-architect-with-memory/SKILL.md`
+- `agency-baidu-seo-specialist`
+  - Purpose: Expert Baidu search optimization specialist focused on Chinese search engine ranking, Baidu ecosystem integration, ICP compliance, Chinese keyword research, and mobile-first indexing for the China market.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-baidu-seo-specialist/SKILL.md`
+- `agency-behavioral-nudge-engine`
+  - Purpose: Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-behavioral-nudge-engine/SKILL.md`
+- `agency-bilibili-content-strategist`
+  - Purpose: Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-bilibili-content-strategist/SKILL.md`
+- `agency-blender-add-on-engineer`
+  - Purpose: Blender tooling specialist - Builds Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-blender-add-on-engineer/SKILL.md`
+- `agency-blockchain-security-auditor`
+  - Purpose: Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-blockchain-security-auditor/SKILL.md`
+- `agency-book-co-author`
+  - Purpose: Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-book-co-author/SKILL.md`
+- `agency-brand-guardian`
+  - Purpose: Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-brand-guardian/SKILL.md`
+- `agency-carousel-growth-engine`
+  - Purpose: Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analyti...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-carousel-growth-engine/SKILL.md`
+- `agency-china-e-commerce-operator`
+  - Purpose: Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-china-e-commerce-operator/SKILL.md`
+- `agency-china-market-localization-strategist`
+  - Purpose: Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-china-market-localization-strategist/SKILL.md`
+- `agency-civil-engineer`
+  - Purpose: Expert civil and structural engineer with global standards coverage — Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ, and more. Specializes in structural analysis, geotechnical design, construction documentation, building code compliance, and mult...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-civil-engineer/SKILL.md`
+- `agency-cms-developer`
+  - Purpose: Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-cms-developer/SKILL.md`
+- `agency-code-reviewer`
+  - Purpose: Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance — not style preferences.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-code-reviewer/SKILL.md`
+- `agency-compliance-auditor`
+  - Purpose: Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-compliance-auditor/SKILL.md`
+- `agency-content-creator`
+  - Purpose: Expert content strategist and creator for multi-platform campaigns. Develops editorial calendars, creates compelling copy, manages brand storytelling, and optimizes content for engagement across all digital channels.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-content-creator/SKILL.md`
+- `agency-corporate-training-designer`
+  - Purpose: Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-corporate-training-designer/SKILL.md`
+- `agency-cross-border-e-commerce-specialist`
+  - Purpose: Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization,...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-cross-border-e-commerce-specialist/SKILL.md`
+- `agency-cultural-intelligence-strategist`
+  - Purpose: CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-cultural-intelligence-strategist/SKILL.md`
+- `agency-data-consolidation-agent`
+  - Purpose: AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-data-consolidation-agent/SKILL.md`
+- `agency-data-engineer`
+  - Purpose: Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-data-engineer/SKILL.md`
+- `agency-database-optimizer`
+  - Purpose: Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-database-optimizer/SKILL.md`
+- `agency-deal-strategist`
+  - Purpose: Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-deal-strategist/SKILL.md`
+- `agency-developer-advocate`
+  - Purpose: Expert developer advocate specializing in building developer communities, creating compelling technical content, optimizing developer experience (DX), and driving platform adoption through authentic engineering engagement. Bridges product and engineering te...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-developer-advocate/SKILL.md`
+- `agency-devops-automator`
+  - Purpose: Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-devops-automator/SKILL.md`
+- `agency-discovery-coach`
+  - Purpose: Coaches sales teams on elite discovery methodology — question design, current-state mapping, gap quantification, and call structure that surfaces real buying motivation.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-discovery-coach/SKILL.md`
+- `agency-document-generator`
+  - Purpose: Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-document-generator/SKILL.md`
+- `agency-douyin-strategist`
+  - Purpose: Short-video marketing expert specializing in the Douyin platform, with deep expertise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-douyin-strategist/SKILL.md`
+- `agency-email-intelligence-engineer`
+  - Purpose: Expert in extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-email-intelligence-engineer/SKILL.md`
+- `agency-embedded-firmware-engineer`
+  - Purpose: Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-embedded-firmware-engineer/SKILL.md`
+- `agency-evidence-collector`
+  - Purpose: Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-evidence-collector/SKILL.md`
+- `agency-executive-summary-generator`
+  - Purpose: Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite de...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-executive-summary-generator/SKILL.md`
+- `agency-experiment-tracker`
+  - Purpose: Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-experiment-tracker/SKILL.md`
+- `agency-feedback-synthesizer`
+  - Purpose: Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-feedback-synthesizer/SKILL.md`
+- `agency-feishu-integration-developer`
+  - Purpose: Full-stack integration expert specializing in the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable (multidimensional spreadsheets), interactive message cards, Webhooks, SSO authentication, and workflow auto...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-feishu-integration-developer/SKILL.md`
+- `agency-filament-optimization-specialist`
+  - Purpose: Expert in restructuring and optimizing Filament PHP admin interfaces for maximum usability and efficiency. Focuses on impactful structural changes — not just cosmetic tweaks.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-filament-optimization-specialist/SKILL.md`
+- `agency-finance-tracker`
+  - Purpose: Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-finance-tracker/SKILL.md`
+- `agency-french-consulting-market-navigator`
+  - Purpose: Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-french-consulting-market-navigator/SKILL.md`
+- `agency-frontend-developer`
+  - Purpose: Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-frontend-developer/SKILL.md`
+- `agency-game-audio-engineer`
+  - Purpose: Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-game-audio-engineer/SKILL.md`
+- `agency-game-designer`
+  - Purpose: Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-game-designer/SKILL.md`
+- `agency-geographer`
+  - Purpose: Expert in physical and human geography, climate systems, cartography, and spatial analysis — builds geographically coherent worlds where terrain, climate, resources, and settlement patterns make scientific sense
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-geographer/SKILL.md`
+- `agency-git-workflow-master`
+  - Purpose: Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-git-workflow-master/SKILL.md`
+- `agency-godot-gameplay-scripter`
+  - Purpose: Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-godot-gameplay-scripter/SKILL.md`
+- `agency-godot-multiplayer-engineer`
+  - Purpose: Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-godot-multiplayer-engineer/SKILL.md`
+- `agency-godot-shader-developer`
+  - Purpose: Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-godot-shader-developer/SKILL.md`
+- `agency-government-digital-presales-consultant`
+  - Purpose: Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang dom...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-government-digital-presales-consultant/SKILL.md`
+- `agency-growth-hacker`
+  - Purpose: Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-growth-hacker/SKILL.md`
+- `agency-healthcare-marketing-compliance-specialist`
+  - Purpose: Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supple...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-healthcare-marketing-compliance-specialist/SKILL.md`
+- `agency-historian`
+  - Purpose: Expert in historical analysis, periodization, material culture, and historiography — validates historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-historian/SKILL.md`
+- `agency-identity-graph-operator`
+  - Purpose: Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for "who is this entity?" - deterministically, even under concurrent writes.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-identity-graph-operator/SKILL.md`
+- `agency-image-prompt-engineer`
+  - Purpose: Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translating visual concepts into precise language that produces stunning, professional-quality photography through generative...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-image-prompt-engineer/SKILL.md`
+- `agency-incident-response-commander`
+  - Purpose: Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-incident-response-commander/SKILL.md`
+- `agency-inclusive-visuals-specialist`
+  - Purpose: Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-inclusive-visuals-specialist/SKILL.md`
+- `agency-infrastructure-maintainer`
+  - Purpose: Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-infrastructure-maintainer/SKILL.md`
+- `agency-instagram-curator`
+  - Purpose: Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-instagram-curator/SKILL.md`
+- `agency-jira-workflow-steward`
+  - Purpose: Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-jira-workflow-steward/SKILL.md`
+- `agency-korean-business-navigator`
+  - Purpose: Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-korean-business-navigator/SKILL.md`
+- `agency-kuaishou-strategist`
+  - Purpose: Expert Kuaishou marketing strategist specializing in short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-kuaishou-strategist/SKILL.md`
+- `agency-legal-compliance-checker`
+  - Purpose: Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-legal-compliance-checker/SKILL.md`
+- `agency-level-designer`
+  - Purpose: Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-level-designer/SKILL.md`
+- `agency-linkedin-content-creator`
+  - Purpose: Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone bu...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-linkedin-content-creator/SKILL.md`
+- `agency-livestream-commerce-coach`
+  - Purpose: Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-livestream-commerce-coach/SKILL.md`
+- `agency-lsp-index-engineer`
+  - Purpose: Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-lsp-index-engineer/SKILL.md`
+- `agency-macos-spatial-metal-engineer`
+  - Purpose: Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-macos-spatial-metal-engineer/SKILL.md`
+- `agency-mcp-builder`
+  - Purpose: Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-mcp-builder/SKILL.md`
+- `agency-mobile-app-builder`
+  - Purpose: Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-mobile-app-builder/SKILL.md`
+- `agency-model-qa-specialist`
+  - Purpose: Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-model-qa-specialist/SKILL.md`
+- `agency-narrative-designer`
+  - Purpose: Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-narrative-designer/SKILL.md`
+- `agency-narratologist`
+  - Purpose: Expert in narrative theory, story structure, character arcs, and literary analysis — grounds advice in established frameworks from Propp to Campbell to modern narratology
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-narratologist/SKILL.md`
+- `agency-outbound-strategist`
+  - Purpose: Signal-based outbound specialist who designs multi-channel prospecting sequences, defines ICPs, and builds pipeline through research-driven personalization — not volume.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-outbound-strategist/SKILL.md`
+- `agency-paid-media-auditor`
+  - Purpose: Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit rep...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-paid-media-auditor/SKILL.md`
+- `agency-paid-social-strategist`
+  - Purpose: Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience stra...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-paid-social-strategist/SKILL.md`
+- `agency-performance-benchmarker`
+  - Purpose: Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-performance-benchmarker/SKILL.md`
+- `agency-pipeline-analyst`
+  - Purpose: Revenue operations analyst specializing in pipeline health diagnostics, deal velocity analysis, forecast accuracy, and data-driven sales coaching. Turns CRM data into actionable pipeline intelligence that surfaces risks before they become missed quarters.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-pipeline-analyst/SKILL.md`
+- `agency-podcast-strategist`
+  - Purpose: Content strategy and operations expert for the Chinese podcast market, with deep expertise in Xiaoyuzhou, Ximalaya, and other major audio platforms, covering show positioning, audio production, audience growth, multi-platform distribution, and monetization...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-podcast-strategist/SKILL.md`
+- `agency-ppc-campaign-strategist`
+  - Purpose: Senior paid media strategist specializing in large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that sca...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ppc-campaign-strategist/SKILL.md`
+- `agency-private-domain-operator`
+  - Purpose: Expert in building enterprise WeChat (WeCom) private domain ecosystems, with deep expertise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-private-domain-operator/SKILL.md`
+- `agency-product-manager`
+  - Purpose: Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-product-manager/SKILL.md`
+- `agency-programmatic-display-buyer`
+  - Purpose: Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-programmatic-display-buyer/SKILL.md`
+- `agency-project-shepherd`
+  - Purpose: Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple t...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-project-shepherd/SKILL.md`
+- `agency-proposal-strategist`
+  - Purpose: Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-proposal-strategist/SKILL.md`
+- `agency-psychologist`
+  - Purpose: Expert in human behavior, personality theory, motivation, and cognitive patterns — builds psychologically credible characters and interactions grounded in clinical and research frameworks
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-psychologist/SKILL.md`
+- `agency-rapid-prototyper`
+  - Purpose: Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-rapid-prototyper/SKILL.md`
+- `agency-reality-checker`
+  - Purpose: Stops fantasy approvals, evidence-based certification - Default to "NEEDS WORK", requires overwhelming proof for production readiness
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-reality-checker/SKILL.md`
+- `agency-recruitment-specialist`
+  - Purpose: Expert recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competit...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-recruitment-specialist/SKILL.md`
+- `agency-reddit-community-builder`
+  - Purpose: Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-reddit-community-builder/SKILL.md`
+- `agency-report-distribution-agent`
+  - Purpose: AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-report-distribution-agent/SKILL.md`
+- `agency-roblox-avatar-creator`
+  - Purpose: Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-roblox-avatar-creator/SKILL.md`
+- `agency-roblox-experience-designer`
+  - Purpose: Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-roblox-experience-designer/SKILL.md`
+- `agency-roblox-systems-scripter`
+  - Purpose: Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-roblox-systems-scripter/SKILL.md`
+- `agency-sales-coach`
+  - Purpose: Expert sales coaching specialist focused on rep development, pipeline review facilitation, call coaching, deal strategy, and forecast accuracy. Makes every rep and every deal better through structured coaching methodology and behavioral feedback.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-sales-coach/SKILL.md`
+- `agency-sales-data-extraction-agent`
+  - Purpose: AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-sales-data-extraction-agent/SKILL.md`
+- `agency-sales-engineer`
+  - Purpose: Senior pre-sales engineer specializing in technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. Wins the technical decision so the deal can close.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-sales-engineer/SKILL.md`
+- `agency-salesforce-architect`
+  - Purpose: Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-salesforce-architect/SKILL.md`
+- `agency-search-query-analyst`
+  - Purpose: Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-search-query-analyst/SKILL.md`
+- `agency-security-engineer`
+  - Purpose: Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, security architecture design, and incident response for modern web, API, and cloud-native applications.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-security-engineer/SKILL.md`
+- `agency-senior-developer`
+  - Purpose: Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-senior-developer/SKILL.md`
+- `agency-senior-project-manager`
+  - Purpose: Converts specs to tasks and remembers previous projects. Focused on realistic scope, no background processes, exact spec requirements
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-senior-project-manager/SKILL.md`
+- `agency-seo-specialist`
+  - Purpose: Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-seo-specialist/SKILL.md`
+- `agency-short-video-editing-coach`
+  - Purpose: Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, su...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-short-video-editing-coach/SKILL.md`
+- `agency-social-media-strategist`
+  - Purpose: Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-social-media-strategist/SKILL.md`
+- `agency-software-architect`
+  - Purpose: Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-software-architect/SKILL.md`
+- `agency-solidity-smart-contract-engineer`
+  - Purpose: Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-solidity-smart-contract-engineer/SKILL.md`
+- `agency-sprint-prioritizer`
+  - Purpose: Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-sprint-prioritizer/SKILL.md`
+- `agency-sre-site-reliability-engineer`
+  - Purpose: Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-sre-site-reliability-engineer/SKILL.md`
+- `agency-studio-operations`
+  - Purpose: Expert operations manager specializing in day-to-day studio efficiency, process optimization, and resource coordination. Focused on ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-studio-operations/SKILL.md`
+- `agency-studio-producer`
+  - Purpose: Senior strategic leader specializing in high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focused on aligning creative vision with business objectives while managing complex cross-functiona...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-studio-producer/SKILL.md`
+- `agency-study-abroad-advisor`
+  - Purpose: Full-spectrum study abroad planning expert covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master's, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized te...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-study-abroad-advisor/SKILL.md`
+- `agency-supply-chain-strategist`
+  - Purpose: Expert supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and supply chain digitalization. Grounded in China's manufacturing ecosystem, helps companies build efficient, resilie...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-supply-chain-strategist/SKILL.md`
+- `agency-support-responder`
+  - Purpose: Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-support-responder/SKILL.md`
+- `agency-technical-artist`
+  - Purpose: Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-technical-artist/SKILL.md`
+- `agency-technical-writer`
+  - Purpose: Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-technical-writer/SKILL.md`
+- `agency-terminal-integration-specialist`
+  - Purpose: Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-terminal-integration-specialist/SKILL.md`
+- `agency-test-results-analyzer`
+  - Purpose: Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-test-results-analyzer/SKILL.md`
+- `agency-threat-detection-engineer`
+  - Purpose: Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-threat-detection-engineer/SKILL.md`
+- `agency-tiktok-strategist`
+  - Purpose: Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-tiktok-strategist/SKILL.md`
+- `agency-tool-evaluator`
+  - Purpose: Expert technology assessment specialist focused on evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-tool-evaluator/SKILL.md`
+- `agency-tracking-measurement-specialist`
+  - Purpose: Expert in conversion tracking architecture, tag management, and attribution modeling across Google Tag Manager, GA4, Google Ads, Meta CAPI, LinkedIn Insight Tag, and server-side implementations. Ensures every conversion is counted correctly and every dollar...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-tracking-measurement-specialist/SKILL.md`
+- `agency-trend-researcher`
+  - Purpose: Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-trend-researcher/SKILL.md`
+- `agency-twitter-engager`
+  - Purpose: Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-twitter-engager/SKILL.md`
+- `agency-ui-designer`
+  - Purpose: Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ui-designer/SKILL.md`
+- `agency-unity-architect`
+  - Purpose: Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unity-architect/SKILL.md`
+- `agency-unity-editor-tool-developer`
+  - Purpose: Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unity-editor-tool-developer/SKILL.md`
+- `agency-unity-multiplayer-engineer`
+  - Purpose: Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unity-multiplayer-engineer/SKILL.md`
+- `agency-unity-shader-graph-artist`
+  - Purpose: Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unity-shader-graph-artist/SKILL.md`
+- `agency-unreal-multiplayer-architect`
+  - Purpose: Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unreal-multiplayer-architect/SKILL.md`
+- `agency-unreal-systems-engineer`
+  - Purpose: Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unreal-systems-engineer/SKILL.md`
+- `agency-unreal-technical-artist`
+  - Purpose: Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unreal-technical-artist/SKILL.md`
+- `agency-unreal-world-builder`
+  - Purpose: Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-unreal-world-builder/SKILL.md`
+- `agency-ux-architect`
+  - Purpose: Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ux-architect/SKILL.md`
+- `agency-ux-researcher`
+  - Purpose: Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-ux-researcher/SKILL.md`
+- `agency-video-optimization-specialist`
+  - Purpose: Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-video-optimization-specialist/SKILL.md`
+- `agency-visionos-spatial-engineer`
+  - Purpose: Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-visionos-spatial-engineer/SKILL.md`
+- `agency-visual-storyteller`
+  - Purpose: Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-visual-storyteller/SKILL.md`
+- `agency-wechat-mini-program-developer`
+  - Purpose: Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-wechat-mini-program-developer/SKILL.md`
+- `agency-wechat-official-account-manager`
+  - Purpose: Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-wechat-official-account-manager/SKILL.md`
+- `agency-weibo-strategist`
+  - Purpose: Full-spectrum operations expert for Sina Weibo, with deep expertise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained g...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-weibo-strategist/SKILL.md`
+- `agency-whimsy-injector`
+  - Purpose: Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-whimsy-injector/SKILL.md`
+- `agency-workflow-architect`
+  - Purpose: Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready s...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-workflow-architect/SKILL.md`
+- `agency-workflow-optimizer`
+  - Purpose: Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-workflow-optimizer/SKILL.md`
+- `agency-xiaohongshu-specialist`
+  - Purpose: Expert Xiaohongshu marketing specialist focused on lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-xiaohongshu-specialist/SKILL.md`
+- `agency-xr-cockpit-interaction-specialist`
+  - Purpose: Specialist in designing and developing immersive cockpit-based control systems for XR environments
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-xr-cockpit-interaction-specialist/SKILL.md`
+- `agency-xr-immersive-developer`
+  - Purpose: Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-xr-immersive-developer/SKILL.md`
+- `agency-xr-interface-architect`
+  - Purpose: Spatial interaction designer and interface strategist for immersive AR/VR/XR environments
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-xr-interface-architect/SKILL.md`
+- `agency-zhihu-strategist`
+  - Purpose: Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-zhihu-strategist/SKILL.md`
+- `agency-zk-steward`
+  - Purpose: Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base buildi...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agency-zk-steward/SKILL.md`
+- `agent-introspection-debugging`
+  - Purpose: Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agent-introspection-debugging/SKILL.md`
+- `agent-sort`
+  - Purpose: Build an evidence-backed ECC install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use when ECC should be trimmed to what a project actually needs instea...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/agent-sort/SKILL.md`
+- `analytics-tracking`
+  - Purpose: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics im...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/analytics-tracking/SKILL.md`
+- `api-design`
+  - Purpose: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/api-design/SKILL.md`
+- `article-writing`
+  - Purpose: Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/article-writing/SKILL.md`
+- `backend-patterns`
+  - Purpose: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/backend-patterns/SKILL.md`
+- `brand-voice`
+  - Purpose: Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/brand-voice/SKILL.md`
+- `bun-runtime`
+  - Purpose: Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/bun-runtime/SKILL.md`
+- `ckm:design`
+  - Purpose: Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon de...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/logo-design-reference/SKILL.md`
+- `coding-standards`
+  - Purpose: Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/coding-standards/SKILL.md`
+- `community-marketing`
+  - Purpose: Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive com...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/community-marketing/SKILL.md`
+- `content-engine`
+  - Purpose: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/content-engine/SKILL.md`
+- `content-strategy`
+  - Purpose: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/content-strategy/SKILL.md`
+- `crosspost`
+  - Purpose: Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/crosspost/SKILL.md`
+- `dbs`
+  - Purpose: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。 触发方式：/dbs、/商业、「帮我看看」 Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill. Trigger: /dbs, "help me with my business
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs/SKILL.md`
+- `dbs-action`
+  - Purpose: dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。 触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」 Execution block diagnosis using Adlerian psychology framework. Trigger: /dbs-action, "I know what to do but can't do it", "why do I procrastinate
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-action/SKILL.md`
+- `dbs-agent-migration`
+  - Purpose: Agent 工作台迁移。把任意项目整理成 Claude Code / Codex 双端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。 触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex」 Agent workspace migration. Turn an...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-agent-migration/SKILL.md`
+- `dbs-ai-check`
+  - Purpose: dontbesilent AI 写作特征识别。扫描文案中的 AI 生成痕迹，输出检测报告。默认只诊断不改。 触发方式：/dbs-ai-check、/AI检测、「帮我看看有没有 AI 味」「检测一下 AI 特征」 AI writing fingerprint detection. Scans copy for AI-generated patterns and outputs a diagnostic report. Diagnosis only by default. Trigger: /dbs-ai-che...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-ai-check/SKILL.md`
+- `dbs-benchmark`
+  - Purpose: dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。 触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」 Benchmark analysis using dontbesilent's five-filter method. Trigger: /dbs-benchmark, "find me a benchmark", "who should I copy
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-benchmark/SKILL.md`
+- `dbs-chatroom`
+  - Purpose: 定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-chatroom/SKILL.md`
+- `dbs-chatroom-austrian`
+  - Purpose: 哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。 触发方式：/dbs-chatroom-austrian、/chatroom-austrian、/奥派、「奥派聊天室」 Austrian economics chatroom. Hayek × Mises × Claude debate. Trigger: /dbs-chatroom-austrian, /chatroom-austrian, /奥派, "Austrian chat
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-chatroom-austrian/SKILL.md`
+- `dbs-content`
+  - Purpose: dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。 触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」 Content creation diagnosis. After topic passes, diagnose how to turn it into good content. Trigger: /dbs-content, "how should I create this content", "review my copy
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-content/SKILL.md`
+- `dbs-deconstruct`
+  - Purpose: dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。 触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」 Concept deconstruction using Wittgenstein + Austrian economics framework. Trigger: /dbs-deconstruct, "deconstruct this concept", "what does this really mean
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-deconstruct/SKILL.md`
+- `dbs-diagnosis`
+  - Purpose: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。 触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」 Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-diagnosis/SKILL.md`
+- `dbs-goal`
+  - Purpose: dontbesilent 目标清晰化。用维特根斯坦的语言哲学把模糊的目标审计成可检查的交付物。 触发方式：/dbs-goal、/目标、「帮我搞清楚目标」「我想做个人 IP」「我的目标是成为...」「我想变得更...」 Goal clarification using Wittgenstein's philosophy of language. Audits fuzzy goals into checkable deliverables. Trigger: /dbs-goal, "help me clarify...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-goal/SKILL.md`
+- `dbs-good-question`
+  - Purpose: dontbesilent 好问题生成器。把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断它能被自动化解决到什么程度。 触发方式：/dbs-good-question、/好问题、/问题说明书、/Agent可解性、「这个问题能不能自动化解决」「帮我把问题说清楚」 Turn fuzzy problems into agent-solvable problem briefs and evaluate automation readiness. Trigger: /dbs-good-questi...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-good-question/SKILL.md`
+- `dbs-hook`
+  - Purpose: dontbesilent 短视频开头优化。诊断开头问题 + 生成优化方案。 触发方式：/dbs-hook、/hook、「帮我优化开头」「开头怎么写」 Short video opening optimization with diagnosis and solutions. Trigger: /dbs-hook, "optimize my opening", "how to write opening
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-hook/SKILL.md`
+- `dbs-learning`
+  - Purpose: dontbesilent 交互式学习。把一个课题拆成连续学习文章，根据用户在上一篇中的反馈调整下一篇的深度、角度和节奏。 触发方式：/dbs-learning、/dbs-learn、/交互式学习、「带我学一个课题」「继续下一篇」「根据我的反馈写下一篇」 Interactive learning workflow. Builds an adaptive sequence of learning articles based on user feedback. Trigger: /dbs-learning, /d...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-learning/SKILL.md`
+- `dbs-report`
+  - Purpose: 把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。 触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」 Generate a deliverable diagnosis report by merging all dbs-save snapshots. Trigger: /dbs-report, "package this up", "make me a report
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-report/SKILL.md`
+- `dbs-restore`
+  - Purpose: 把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。 触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」 Restore the most recent diagnosis snapshot saved by dbs-save. Trigger: /dbs-restore, "continue from last time", "where did we leave off
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-restore/SKILL.md`
+- `dbs-save`
+  - Purpose: 把当前诊断的关键状态存到本地，下次回来可以接着用。 触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」 Save the current diagnosis state to disk for cross-session recall. Trigger: /dbs-save, "save this diagnosis", "remember this
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-save/SKILL.md`
+- `dbs-slowisfast`
+  - Purpose: dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。 触发方式：/dbs-slowisfast、/慢就是快、「有没有更慢的方法」「我是不是太快了」 Slow-is-fast diagnosis. Help entrepreneurs find seemingly slower methods that build assets through friction. Trigger: /dbs-slowisfast, "is there a slower way", "am...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-slowisfast/SKILL.md`
+- `dbs-xhs-title`
+  - Purpose: 小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。 触发方式：/dbs-xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」 Xiaohongshu title formula tool. Pick the right formula from 75 proven templates. Trigger: /dbs-xhs-title, "xiaohongshu title", "RED title formula
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dbs-xhs-title/SKILL.md`
+- `deep-research`
+  - Purpose: Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/deep-research/SKILL.md`
+- `design-md`
+  - Purpose: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/design-md/SKILL.md`
+- `dmux-workflows`
+  - Purpose: Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent developm...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/dmux-workflows/SKILL.md`
+- `doc`
+  - Purpose: Use when the task involves reading, creating, or editing `.docx` documents, especially when formatting or layout fidelity matters; prefer `python-docx` plus the bundled `scripts/render_docx.py` for visual checks.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/doc/SKILL.md`
+- `documentation-lookup`
+  - Purpose: Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/documentation-lookup/SKILL.md`
+- `e2e-testing`
+  - Purpose: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/e2e-testing/SKILL.md`
+- `eval-harness`
+  - Purpose: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/eval-harness/SKILL.md`
+- `everything-claude-code`
+  - Purpose: Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/everything-claude-code/SKILL.md`
+- `exa-search`
+  - Purpose: Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/exa-search/SKILL.md`
+- `fal-ai-media`
+  - Purpose: Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/fal-ai-media/SKILL.md`
+- `figma`
+  - Purpose: Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and trou...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/figma/SKILL.md`
+- `frontend-patterns`
+  - Purpose: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/frontend-patterns/SKILL.md`
+- `frontend-slides`
+  - Purpose: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic th...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/frontend-slides/SKILL.md`
+- `imagegen`
+  - Purpose: Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, o...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/skills/.system/imagegen/SKILL.md`
+- `investor-materials`
+  - Purpose: Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must st...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/investor-materials/SKILL.md`
+- `investor-outreach`
+  - Purpose: Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/investor-outreach/SKILL.md`
+- `lead-magnets`
+  - Purpose: When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download,"...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/lead-magnets/SKILL.md`
+- `market-research`
+  - Purpose: Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or rese...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/market-research/SKILL.md`
+- `mcp-server-patterns`
+  - Purpose: Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/mcp-server-patterns/SKILL.md`
+- `mle-workflow`
+  - Purpose: Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/mle-workflow/SKILL.md`
+- `nextjs-turbopack`
+  - Purpose: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/nextjs-turbopack/SKILL.md`
+- `openai-docs`
+  - Purpose: Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use b...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/skills/.system/openai-docs/SKILL.md`
+- `paid-ads`
+  - Purpose: When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience target...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/paid-ads/SKILL.md`
+- `pdf`
+  - Purpose: Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/pdf/SKILL.md`
+- `plugin-creator`
+  - Purpose: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/skills/.system/plugin-creator/SKILL.md`
+- `postiz`
+  - Purpose: Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy,...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/postiz/SKILL.md`
+- `postiz`
+  - Purpose: (No description found.)
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/postiz/skills/postiz/SKILL.md`
+- `product-capability`
+  - Purpose: Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before multi-service work starts. Use when the user needs an ECC-native PRD-to...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/product-capability/SKILL.md`
+- `product-marketing-context`
+  - Purpose: When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal cust...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/product-marketing-context/SKILL.md`
+- `sales-enablement`
+  - Purpose: When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' '...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/sales-enablement/SKILL.md`
+- `security-review`
+  - Purpose: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/security-review/SKILL.md`
+- `skill-creator`
+  - Purpose: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/skills/.system/skill-creator/SKILL.md`
+- `skill-installer`
+  - Purpose: Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/skills/.system/skill-installer/SKILL.md`
+- `social-content`
+  - Purpose: When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/social-content/SKILL.md`
+- `strategic-compact`
+  - Purpose: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/strategic-compact/SKILL.md`
+- `tdd-workflow`
+  - Purpose: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/tdd-workflow/SKILL.md`
+- `verification-loop`
+  - Purpose: A comprehensive verification system for Claude Code sessions.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/verification-loop/SKILL.md`
+- `video-editing`
+  - Purpose: AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video,...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/video-editing/SKILL.md`
+- `x-api`
+  - Purpose: X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/x-api/SKILL.md`
+- `xiaohongshu-education-ads-buyer`
+  - Purpose: Plan, audit, and optimize Xiaohongshu paid ads for certified education institution accounts, especially language schools, overseas Chinese schools, tutoring centers, study-abroad education, HSK/Chinese learning, and lead-generation campaigns. Use when the u...
+  - Share suitability: List only unless license permits
+  - Install / usage note: Share the name, purpose, and source; copy content only after checking the original license.
+  - Source: `~/.codex/skills/xiaohongshu-education-ads-buyer/SKILL.md`
+
+## Local Shareable Skill
+
+- `clarify-before-execute`
+  - Purpose: Use this workflow when a user asks an agent to do work but the scope, output, tools, or risks are not fully clear. The agent must ask what work is needed, clarify fuzzy requirements, select relevant skills and CLI/tools, present an execution plan, and ask f...
+  - Share suitability: Share directly
+  - Install / usage note: Copy this skill folder into a target agent skills directory.
+  - Source: `shareable-agent-workflow/skills/clarify-before-execute/SKILL.md`
+
+## Browser Plugin Skills
+
+- `browser`
+  - Purpose: Browser automation for the Codex in-app browser. Use to open, navigate, inspect, test, click, type, screenshot, or verify local targets such as localhost, 127.0.0.1, ::1, file://, the current in-app browser tab, and websites shown side by side inside Codex.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-bundled/browser/0.1.0-alpha2/skills/browser/SKILL.md`
+
+## GitHub Plugin Skills
+
+- `gh-address-comments`
+  - Purpose: Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment re...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/github/d947469e/skills/gh-address-comments/SKILL.md`
+- `gh-fix-ci`
+  - Purpose: Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/github/d947469e/skills/gh-fix-ci/SKILL.md`
+- `github`
+  - Purpose: Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/github/d947469e/skills/github/SKILL.md`
+- `yeet`
+  - Purpose: Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/github/d947469e/skills/yeet/SKILL.md`
+
+## Netlify Plugin Skills
+
+- `netlify-ai-gateway`
+  - Purpose: Guide for using Netlify AI Gateway to access AI models. Use when adding AI capabilities or selecting/changing AI models. Must be read before choosing a model. Covers supported providers (OpenAI, Anthropic, Google), SDK setup, environment variables, and the...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-ai-gateway/SKILL.md`
+- `netlify-blobs`
+  - Purpose: Guide for using Netlify Blobs object storage. Use when storing files, images, documents, or simple key-value data without a full database. Covers getStore(), CRUD operations, metadata, listing, deploy-scoped vs site-scoped stores, and local development.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-blobs/SKILL.md`
+- `netlify-caching`
+  - Purpose: Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate, implementing on-demand cache purge, or understanding Netlify's CDN caching behavior. Covers Cache-Control, Netlify-CDN-Cache-Control, cach...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-caching/SKILL.md`
+- `netlify-cli-and-deploy`
+  - Purpose: Guide for using the Netlify CLI and deploying sites. Use when installing the CLI, linking sites, deploying (Git-based or manual), managing environment variables, or running local development. Covers netlify dev, netlify deploy, Git vs non-Git workflows, and...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-cli-and-deploy/SKILL.md`
+- `netlify-config`
+  - Purpose: Reference for netlify.toml configuration. Use when configuring build settings, redirects, rewrites, headers, deploy contexts, environment variables, or any site-level configuration. Covers the complete netlify.toml syntax including redirects with splats/con...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-config/SKILL.md`
+- `netlify-deploy`
+  - Purpose: Deploy projects to Netlify with the Netlify CLI. Use when the user wants to link a repo, validate deploy settings, run a deploy, or choose between preview and production flows.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-deploy/SKILL.md`
+- `netlify-edge-functions`
+  - Purpose: Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geol...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-edge-functions/SKILL.md`
+- `netlify-forms`
+  - Purpose: Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notif...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-forms/SKILL.md`
+- `netlify-frameworks`
+  - Purpose: Guide for deploying web frameworks on Netlify. Use when setting up a framework project (Vite/React, Astro, TanStack Start, Next.js, Nuxt, SvelteKit, Remix) for Netlify deployment, configuring adapters or plugins, or troubleshooting framework-specific Netlif...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-frameworks/SKILL.md`
+- `netlify-functions`
+  - Purpose: Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern syntax (default export + Config), TypeScript, path routing, background f...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-functions/SKILL.md`
+- `netlify-identity`
+  - Purpose: Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/identity`. Never use `netlify-identity-widget` or `gotrue-js` — they are...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-identity/SKILL.md`
+- `netlify-image-cdn`
+  - Purpose: Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images end...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-curated/netlify/d947469e/skills/netlify-image-cdn/SKILL.md`
+
+## Primary Runtime Plugin Skills
+
+- `documents`
+  - Purpose: Create, edit, redline, and comment on `.docx` files inside the container, with a strict artifact-tool render-and-verify workflow. Use `render_docx.py --renderer artifact-tool` to generate page PNGs for visual QA, then iterate until layout is flawless before...
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-primary-runtime/documents/26.423.10653/skills/documents/SKILL.md`
+- `Presentations`
+  - Purpose: Create, edit, render, verify, and export PowerPoint slide decks. Use when Codex needs to build or modify a deck, presentation deck, slide deck, slides, PowerPoint, PPT, PPTX, or .pptx file.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-primary-runtime/presentations/26.423.10653/skills/presentations/SKILL.md`
+- `Spreadsheets`
+  - Purpose: Use this skill when a user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) with formulas, formatting, charts, tables, and recalculation.
+  - Share suitability: List only
+  - Install / usage note: Install through the original plugin/system provider; do not vendor content without license review.
+  - Source: `~/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.423.10653/skills/spreadsheets/SKILL.md`
+

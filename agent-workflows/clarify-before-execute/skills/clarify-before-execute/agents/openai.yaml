@@ -1,0 +1,4 @@
+name: clarify-before-execute
+display_name: Clarify Before Execute
+short_description: Clarify fuzzy work, select Skills/tools, and ask for confirmation before execution.
+default_prompt: Use the clarify-before-execute workflow. Ask what work needs to be done, clarify missing requirements, map the task to relevant Skills and tools, present an execution plan, and wait for confirmation before making changes or taking external actions.
